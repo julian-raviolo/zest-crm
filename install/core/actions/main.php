@@ -34,7 +34,7 @@ $fields = [
         'default' => $config->get('language', 'en_US'),
     ],
     'theme' => [
-        'default' => $config->get('theme'),
+        'default' => 'Zest', // Zest: tema por defecto
     ],
 ];
 

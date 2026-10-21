@@ -265,6 +265,7 @@ class Installer
     public function getThemeList(): array
     {
         return [
+            'Zest', // Zest: tema de la marca (custom/Espo/Modules/ZestTheme)
             'Espo',
             'Dark',
             'Light',
@@ -394,7 +395,7 @@ class Installer
             'siteUrl' => $siteUrl,
             'cryptKey' => Util::generateSecretKey(),
             'hashSecretKey' => Util::generateSecretKey(),
-            'theme' => $saveData['theme'] ?? 'Espo',
+            'theme' => $saveData['theme'] ?? 'Zest', // Zest: tema por defecto
         ];
 
         if (empty($saveData['defaultPermissions']['user'])) {
