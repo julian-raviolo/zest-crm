@@ -1,0 +1,20 @@
+{
+    "stylesheet": "client/custom/modules/zest-theme/css/zest.css",
+    "stylesheetIframe": "client/custom/modules/zest-theme/css/zest-iframe.css",
+    "logo": "client/custom/modules/zest-theme/img/zest-logo.svg",
+    "textColor": "#F2EFE6",
+    "hoverColor": "#FF5B2E",
+    "chartGridColor": "#262622",
+    "chartTickColor": "#3A3934",
+    "chartSuccessColor": "#7FC48A",
+    "chartColorList": ["#FF5B2E", "#F2EFE6", "#C98A2E", "#7FC48A", "#7C6FB0", "#B83C12", "#5B8FB9", "#BDB8AC", "#8F8B80"],
+    "chartColorAlternativeList": ["#FF5B2E", "#F2EFE6", "#C98A2E", "#7FC48A", "#7C6FB0"],
+    "calendarColors": {
+        "": "#FF5B2Ea0",
+        "bg": "#2E1810b3",
+        "Meeting": "#B83C12",
+        "Call": "#7C6FB0",
+        "Task": "#4F8A5B"
+    },
+    "isDark": true
+}

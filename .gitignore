@@ -1,0 +1,18 @@
+# Lo que EspoCRM genera en el servidor: configuración (con la contraseña de la base),
+# adjuntos, caché y logs. Nunca debe entrar al repositorio.
+/data/*
+!/data/.data
+
+# Personalizaciones hechas desde el panel y extensiones instaladas desde Administración:
+# viven solo en el servidor. Se versiona únicamente el tema Zest.
+/custom/Espo/Custom/*
+!/custom/Espo/Custom/.htaccess
+/custom/Espo/Modules/*
+!/custom/Espo/Modules/.htaccess
+!/custom/Espo/Modules/ZestTheme/
+/client/custom/*
+!/client/custom/modules/
+/client/custom/modules/*
+!/client/custom/modules/zest-theme/
+
+.DS_Store
