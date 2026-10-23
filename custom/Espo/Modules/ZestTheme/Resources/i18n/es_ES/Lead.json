@@ -1,0 +1,11 @@
+{
+    "fields": {
+        "opportunityAmount": "Monto del lead",
+        "opportunityAmountConverted": "Monto del lead (convertido)",
+        "opportunityAmountCurrency": "Moneda del monto del lead",
+        "createdOpportunity": "Lead"
+    },
+    "links": {
+        "createdOpportunity": "Lead"
+    }
+}

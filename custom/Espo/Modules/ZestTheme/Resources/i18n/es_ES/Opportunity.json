@@ -1,0 +1,24 @@
+{
+    "fields": {
+        "categoria": "Categoría"
+    },
+    "options": {
+        "categoria": {
+            "": "—",
+            "A": "A",
+            "B": "B",
+            "C": "C"
+        }
+    },
+    "labels": {
+        "Create Opportunity": "Crear lead"
+    },
+    "presetFilters": {
+        "categoriaA": "Categoría A",
+        "categoriaB": "Categoría B",
+        "categoriaC": "Categoría C"
+    },
+    "tooltips": {
+        "categoria": "A: el lead más prometedor. B: interés medio. C: interés bajo."
+    }
+}

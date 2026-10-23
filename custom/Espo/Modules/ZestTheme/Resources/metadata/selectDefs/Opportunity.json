@@ -1,0 +1,7 @@
+{
+    "primaryFilterClassNameMap": {
+        "categoriaA": "Espo\\Modules\\ZestTheme\\Classes\\Select\\Opportunity\\PrimaryFilters\\CategoriaA",
+        "categoriaB": "Espo\\Modules\\ZestTheme\\Classes\\Select\\Opportunity\\PrimaryFilters\\CategoriaB",
+        "categoriaC": "Espo\\Modules\\ZestTheme\\Classes\\Select\\Opportunity\\PrimaryFilters\\CategoriaC"
+    }
+}

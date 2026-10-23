@@ -1,0 +1,8 @@
+{
+    "filterList": [
+        "__APPEND__",
+        {"name": "categoriaA", "style": "success"},
+        {"name": "categoriaB", "style": "warning"},
+        {"name": "categoriaC", "style": "danger"}
+    ]
+}

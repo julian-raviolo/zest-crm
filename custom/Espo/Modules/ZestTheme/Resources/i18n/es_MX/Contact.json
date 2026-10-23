@@ -1,0 +1,11 @@
+{
+    "fields": {
+        "opportunities": "Leads",
+        "opportunityRole": "Rol en el lead",
+        "opportunitiesPrimary": "Leads (principal)"
+    },
+    "links": {
+        "opportunities": "Leads",
+        "opportunitiesPrimary": "Leads (principal)"
+    }
+}

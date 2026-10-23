@@ -1,0 +1,9 @@
+{
+    "Opportunity": {
+        "list": {"module": "ZestTheme"},
+        "detail": {"module": "ZestTheme"},
+        "detailSmall": {"module": "ZestTheme"},
+        "filters": {"module": "ZestTheme"},
+        "massUpdate": {"module": "ZestTheme"}
+    }
+}

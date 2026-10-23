@@ -9,3 +9,12 @@ Se publica en Hostinger con hPanel → Avanzado → GIT, en la carpeta `public_h
 - Las personalizaciones del panel y las extensiones que se instalen desde Administración quedan solo en el servidor.
 - Para actualizar EspoCRM, hacerlo por este repositorio (reemplazar los archivos por la versión nueva y desplegar),
   no con el actualizador del panel: si el servidor modifica archivos del repositorio, Hostinger ya no puede desplegar.
+
+## Personalizaciones de Zest (en `custom/Espo/Modules/ZestTheme`)
+
+- Tema visual Zest.
+- "Oportunidades" se llama "Leads" (traducciones `es_ES` y `es_MX`).
+- Campo **Categoría** (A / B / C) en los Leads, visible en la lista, la ficha y la creación rápida,
+  con filtros rápidos "Categoría A/B/C" y disponible en la búsqueda y la edición masiva.
+  Después de desplegar un cambio de campos: Administración → Reconstruir.
+

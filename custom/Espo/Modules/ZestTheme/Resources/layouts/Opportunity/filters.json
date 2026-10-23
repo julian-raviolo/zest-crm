@@ -1,0 +1,19 @@
+[
+    "categoria",
+    "assignedUser",
+    "teams",
+    "createdAt",
+    "createdBy",
+    "modifiedAt",
+    "streamUpdatedAt",
+    "account",
+    "amountConverted",
+    "amountWeightedConverted",
+    "campaign",
+    "closeDate",
+    "contacts",
+    "leadSource",
+    "probability",
+    "stage",
+    "description"
+]

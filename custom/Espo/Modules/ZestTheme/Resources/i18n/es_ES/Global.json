@@ -1,5 +1,20 @@
 {
     "themes": {
         "Zest": "Zest"
+    },
+    "scopeNames": {
+        "Opportunity": "Lead"
+    },
+    "scopeNamesPlural": {
+        "Opportunity": "Leads"
+    },
+    "links": {
+        "opportunities": "Leads",
+        "opportunity": "Lead"
+    },
+    "dashlets": {
+        "Opportunities": "Mis leads",
+        "OpportunitiesByStage": "Leads por etapa",
+        "OpportunitiesByLeadSource": "Leads por origen"
     }
 }

@@ -1,0 +1,15 @@
+{
+    "fields": {
+        "categoria": "Category"
+    },
+    "options": {
+        "categoria": {
+            "": "—"
+        }
+    },
+    "presetFilters": {
+        "categoriaA": "Category A",
+        "categoriaB": "Category B",
+        "categoriaC": "Category C"
+    }
+}

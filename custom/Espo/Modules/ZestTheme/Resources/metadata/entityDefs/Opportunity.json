@@ -1,0 +1,31 @@
+{
+    "fields": {
+        "categoria": {
+            "type": "enum",
+            "options": [
+                "",
+                "A",
+                "B",
+                "C"
+            ],
+            "default": "",
+            "style": {
+                "A": "success",
+                "B": "warning",
+                "C": "danger"
+            },
+            "displayAsLabel": true,
+            "labelType": "state",
+            "audited": true,
+            "tooltip": true
+        }
+    },
+    "indexes": {
+        "categoria": {
+            "columns": [
+                "categoria",
+                "deleted"
+            ]
+        }
+    }
+}
