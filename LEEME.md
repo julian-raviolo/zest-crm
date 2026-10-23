@@ -16,5 +16,8 @@ Se publica en Hostinger con hPanel → Avanzado → GIT, en la carpeta `public_h
 - "Oportunidades" se llama "Leads" (traducciones `es_ES` y `es_MX`).
 - Campo **Categoría** (A / B / C) en los Leads, visible en la lista, la ficha y la creación rápida,
   con filtros rápidos "Categoría A/B/C" y disponible en la búsqueda y la edición masiva.
+- Fórmula de los Leads (`metadata/formula/Opportunity.json`): si la Categoría está vacía, la completa con
+  la "Prioridad A/B/C" de la descripción. Para aplicarla a leads ya cargados: Leads → seleccionar todos →
+  Acciones → Recalcular fórmula. Si se escribe otra fórmula desde Administración, reemplaza a esta.
   Después de desplegar un cambio de campos: Administración → Reconstruir.
 

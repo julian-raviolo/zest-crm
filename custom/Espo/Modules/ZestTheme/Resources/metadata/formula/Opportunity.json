@@ -1,0 +1,3 @@
+{
+    "beforeSaveCustomScript": "// Zest: completa la Categoría con la \"Prioridad A/B/C\" que trae la descripción.\n// Solo si está vacía: una categoría puesta a mano no se pisa.\nif (!categoria && description) {\n    if (string\\contains(description, 'Prioridad A')) {\n        categoria = 'A';\n    } else if (string\\contains(description, 'Prioridad B')) {\n        categoria = 'B';\n    } else if (string\\contains(description, 'Prioridad C')) {\n        categoria = 'C';\n    }\n}\n"
+}
